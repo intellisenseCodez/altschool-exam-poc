@@ -38,7 +38,7 @@ create table if not exists ALT_SCHOOL.ORDERS
     order_id UUID NOT NULL PRIMARY KEY,
     -- provide the other fields
     customer_id UUID NOT NULL,
-    status NOT NULL,
+    status varchar NOT NULL,
     checked_out_at TIMESTAMP NOT NULL
 );
 
