@@ -56,7 +56,7 @@ create table if not exists ALT_SCHOOL.LINE_ITEMS
     -- provide the remaining fields
     order_id UUID NOT NULL,
     item_id INTEGER NOT NULL,
-    quantity INTEGER NOT NULL,
+    quantity INTEGER NOT NULL
 );
 
 
